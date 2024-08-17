@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Cover Your Arse (CYA) App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the CYA App, because sometimes you need to document life's little "oopsies" before they become big "oh nos."
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+This React-based app is your digital alibi generator, allowing users to meticulously log their interactions and filter them by rating and scenario. Perfect for those who like to keep receipts on... well, everything.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Log Creation**: Document your encounters before memory (or plausible deniability) fades.
+- **Filtering**: Sort your interactions by rating (high, medium, low) or custom scenarios (e.g., "work," "home," "that one time at band camp").
+- **CRUD Operations**: Create, read, update, and delete logs. Because sometimes even your CYA needs a cover-up.
+- **Detailed Entries**: Each log includes:
+  - Title (keep it snappy)
+  - Summary (for those who can't be bothered to read the whole thing)
+  - Date (because time is a construct, but lawyers love specifics)
+  - Rating (from "meh" to "oh snap!")
+  - Scenario (tag it before you bag it)
+  - Body (the juicy details)
+  - Related People (name and shame, or protect the innocent)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technical Stack
 
-### `npm test`
+- **Frontend**: React with TypeScript (because we like our types strong and our excuses stronger)
+- **Backend** (coming soon): Node.js (why not add more JavaScript to the mix?)
+- **API**: GraphQL 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+1. Clone the repo 
+2. Run `npm install`
+3. Start the app with `npm run start` (and start covering your... tracks)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Create a new log entry every time you feel that tingling sensation of "I might need to remember this later."
+2. Add all relevant details. Remember, it's not paranoia if they're really out to get you.
+3. Use the filtering system to quickly find that one interaction that might save your bacon.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## License
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project is licensed under the "Don't Blame Me, I Have an App for That" license.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Disclaimer
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This app is for entertainment purposes only. Any resemblance to actual alibis, living or dead, is purely coincidental. Use at your own risk, and maybe consider making better life choices.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Upcoming Features
 
-## Learn More
+Because apparently, we haven't made it easy enough to document your life's questionable decisions. Here's what's coming up on our "Make Excuses Great Again" roadmap:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. **Review Dates**: Set reminders to revisit your past shenanigans. You know, in case you need to "refresh" your memory.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. **Calendar View**: See your excuses laid out in a neat calendar format. Perfect for identifying those suspiciously frequent "sick days."
 
-### Code Splitting
+3. **Export Reports as Email**: For when you need to spam your boss with a 50-page PDF of "Why I'm Actually the Victim Here."
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4. **Social Media Sharing**: Because if you didn't share your alibi, did it even happen? (Lawyers advise against this feature, but we're rebels.)
 
-### Analyzing the Bundle Size
+5. **Messaging Service Integration**: Spread your carefully crafted narratives faster than office gossip.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+6. **OAuth Login**: 
+   - Google
+   - Facebook
+   - Apple
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Stay tuned for these groundbreaking additions that will blow up the way you justify your actions. Remember, it's not about the excuse you make, it's about the meticulous digital trail you leave behind!
