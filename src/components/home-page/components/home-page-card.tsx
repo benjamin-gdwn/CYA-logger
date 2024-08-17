@@ -3,6 +3,9 @@ import { t } from "ttag";
 import { mockLogs } from "src/common";
 import { LogCard } from "./log-card";
 
+/**
+ * Home page Log Card container
+ */
 export const HomePageCard = () => {
   const b = '';
   return (

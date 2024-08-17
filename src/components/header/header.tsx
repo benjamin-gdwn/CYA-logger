@@ -1,5 +1,4 @@
 import { AppBar, Box, Toolbar, Typography, InputBase  } from '@mui/material';
-import { PageLayoutHeader } from '../page-layout/page-layout';
 import { Outlet } from 'react-router-dom';
 
 /**

@@ -2,7 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import { HeaderBar } from './components/components';
 import { ROUTER } from './common';
-import { HomePage } from './components/home-page/home-page';
+import { HomePage } from './components/components';
 
 function App() {
   return (

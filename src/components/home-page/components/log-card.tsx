@@ -1,8 +1,14 @@
 import { Card, Chip, Typography } from "@mui/material";
 import { LogType } from "src/common/log.type";
+
 type LogCardProps = {
   log: LogType;
 }
+
+/**
+ * LogCard Component which displays individual CYA logs
+ * @param log `LogCardProps`
+ */
 export const LogCard = ({log}: LogCardProps) => {
   const getRating = (rating: string) => {
     switch(true) {
